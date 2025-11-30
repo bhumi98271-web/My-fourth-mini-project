@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* NAVBAR TOP PAR CHIPKA DO */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    position: absolute;   /* TOP PAR FIX */
+    top: 0;
+    left: 0;
+}
+
+/* LOGO LEFT PAR CHIPAKO */
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+/* MENU */
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* CENTER CONTENT */
+.container1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical center */
+    align-items: center;       /* horizontal center */
+    text-align: center;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    background: #e24de8;
+    border: 2px solid rgba(0,0,0,0.3);
+    font-size: 16px;
+}
